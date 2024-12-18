@@ -1,0 +1,96 @@
+.banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.banner-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto; /* Ensure the image maintains its aspect ratio */
+    max-height: 400px; /* Limit max height for larger screens */
+    object-fit: cover; /* Cover the area without distortion */
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Thumbnails */
+.banner-thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.banner-thumbnails img {
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+.banner-thumbnails img:hover {
+    transform: scale(1.1);
+}
+
+.active-slide {
+    border: 2px solid blue; /* Highlight active slide */
+}
+
+/* Navigation arrows */
+.banner-arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.left-arrow, .right-arrow {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .banner-description p {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+    .banner-thumbnails img {
+        width: 40px; /* Smaller thumbnails */
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .banner-description p {
+        font-size: 2rem; /* Medium font size for tablets */
+    }
+    .banner-thumbnails img {
+        width: 50px; /* Slightly larger thumbnails */
+    }
+}
+
+@media (min-width: 900px) {
+    .banner-description p {
+        font-size: 2.5rem; /* Larger font size for desktops */
+    }
+    .banner-thumbnails img {
+        width: 60px; /* Regular thumbnail size */
+    }
+}

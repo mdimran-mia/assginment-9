@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "location": "Austin, TX",
+      "review": "The process was smooth, and I found my dream home within a week! The agents were friendly and very knowledgeable.",
+      "rating": 5,
+      "photo": "https://www.shutterstock.com/image-photo/close-head-shot-confident-serious-260nw-1481322794.jpg",
+      "date": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "location": "Miami, FL",
+      "review": "Fantastic service! They helped me secure a great deal on a condo with ocean views. Highly recommended!",
+      "rating": 5,
+      "photo": "https://www.shutterstock.com/image-photo/passport-photo-portrait-asian-smiling-260nw-1041841363.jpg",
+      "date": "2024-02-20"
+    },
+    {
+      "id": 3,
+      "name": "Michael Smith",
+      "location": "Denver, CO",
+      "review": "Great experience! The team was very responsive and made the entire buying process hassle-free.",
+      "rating": 4,
+      "photo": "https://www.shutterstock.com/image-photo/passport-photo-portrait-asian-smiling-260nw-1045734418.jpg",
+      "date": "2024-03-05"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "location": "Seattle, WA",
+      "review": "I was impressed with their professionalism and dedication. They found the perfect home for my family.",
+      "rating": 5,
+      "photo": "https://www.shutterstock.com/image-photo/passport-photo-portrait-middle-aged-260nw-1506715724.jpg",
+      "date": "2024-04-10"
+    },
+    {
+      "id": 5,
+      "name": "David Brown",
+      "location": "Dallas, TX",
+      "review": "Excellent service! The agents were patient and guided me through every step of the buying process.",
+      "rating": 4,
+      "photo": "https://www.shutterstock.com/image-photo/calm-interesting-bearded-guy-trendy-260nw-1017384106.jpg",
+      "date": "2024-05-25"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Wilson",
+      "location": "New York, NY",
+      "review": "Amazing experience! I found a fantastic apartment in the heart of the city. The team was superb.",
+      "rating": 5,
+      "photo": "https://www.shutterstock.com/image-photo/passport-photo-portrait-young-man-260nw-2437772333.jpg",
+      "date": "2024-06-12"
+    },
+    {
+      "id": 7,
+      "name": "James Anderson",
+      "location": "Phoenix, AZ",
+      "review": "I was blown away by their customer service. They went above and beyond to find me the perfect house.",
+      "rating": 5,
+      "photo": "https://www.shutterstock.com/image-photo/passport-photo-cute-well-dressed-260nw-1816206689.jpg",
+      "date": "2024-07-04"
+    },
+    {
+      "id": 8,
+      "name": "Isabella Martinez",
+      "location": "Orlando, FL",
+      "review": "This is the best real estate website I’ve used. Very easy to navigate, and the agents are fantastic.",
+      "rating": 5,
+      "photo": "https://t4.ftcdn.net/jpg/07/56/84/77/360_F_756847779_fYCIlDMr85N65wxwhxBIXa48gCwq5VYU.jpg",
+      "date": "2024-08-01"
+    },
+    {
+      "id": 9,
+      "name": "William Thomas",
+      "location": "San Diego, CA",
+      "review": "They truly care about their clients. I found a lovely beachside property thanks to their help.",
+      "rating": 4,
+      "photo": "https://instantglamour.com/wp-content/uploads/photo-gallery/IMG_3348-pp-b.jpg",
+      "date": "2024-08-21"
+    },
+    {
+      "id": 10,
+      "name": "Olivia Garcia",
+      "location": "Chicago, IL",
+      "review": "I’m very happy with my purchase. The team was always available for questions and provided great advice.",
+      "rating": 5,
+      "photo": "https://i.pinimg.com/736x/1d/f9/d4/1df9d49191b554fd08b35bc0164dae98.jpg",
+      "date": "2024-09-15"
+    },
+    {
+      "id": 11,
+      "name": "Benjamin White",
+      "location": "Nashville, TN",
+      "review": "The agents are professional, knowledgeable, and trustworthy. I felt confident throughout the process.",
+      "rating": 5,
+      "photo": "https://cdn.koreatraveleasy.com/wp-content/uploads/2020/04/24162750/time-on-me-studio-customer-photo2-442x590.jpg",
+      "date": "2024-10-03"
+    },
+    {
+      "id": 12,
+      "name": "Charlotte Lee",
+      "location": "Boston, MA",
+      "review": "I couldn’t be happier! The team made the whole process seamless, and I found the perfect home.",
+      "rating": 5,
+      "photo": "https://cdn.koreatraveleasy.com/wp-content/uploads/2020/04/24162747/time-on-me-studio-customer-photo1-442x590.jpg",
+      "date": "2024-10-25"
+    }
+  ]
+  

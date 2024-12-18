@@ -1,0 +1,206 @@
+[
+  {
+      "id": 1,
+      "estate_title": "Charming Family Home",
+      "image": "https://e0.pxfuel.com/wallpapers/679/426/desktop-wallpaper-top-dream-house.jpg",
+      "segment_name": "Single-family Home",
+      "description": "A beautiful family home with a spacious backyard and modern amenities.",
+      "price": "$350,000",
+      "status": "sale",
+      "area": "2200 sq ft",
+      "location": "Springfield, IL",
+      "facilities": [
+          "Living Room",
+          "Garage",
+          "Swimming Pool",
+          "Garden"
+      ]
+  },
+  {
+      "id": 2,
+      "estate_title": "Modern Townhouse",
+      "image": "https://wallpaperaccess.com/full/1126753.jpg",
+      "segment_name": "Townhouse",
+      "description": "This stylish townhouse features contemporary design and close proximity to downtown.",
+      "price": "$450,000",
+      "status": "sale",
+      "area": "1800 sq ft",
+      "location": "Chicago, IL",
+      "facilities": [
+          "Living Room",
+          "Rooftop Terrace",
+          "Gym",
+          "Parking"
+      ]
+  },
+  {
+      "id": 3,
+      "estate_title": "Luxury Apartment",
+      "image": "https://wallpapercave.com/wp/wp2464219.jpg",
+      "segment_name": "Apartment",
+      "description": "A luxurious apartment with a scenic view, located in a prime neighborhood.",
+      "price": "$2,500/month",
+      "status": "rent",
+      "area": "1500 sq ft",
+      "location": "New York, NY",
+      "facilities": [
+          "Living Room",
+          "Balcony",
+          "Concierge Service",
+          "Gym"
+      ]
+  },
+  {
+      "id": 4,
+      "estate_title": "Cozy Student Housing",
+      "image": "https://c4.wallpaperflare.com/wallpaper/76/280/48/architecture-building-design-house-wallpaper-preview.jpg",
+      "segment_name": "Student Housing",
+      "description": "Affordable and conveniently located student housing near the university.",
+      "price": "$750/month",
+      "status": "rent",
+      "area": "500 sq ft",
+      "location": "Ann Arbor, MI",
+      "facilities": [
+          "Living Room",
+          "Study Room",
+          "Laundry Facility",
+          "24/7 Security"
+      ]
+  },
+  {
+      "id": 5,
+      "estate_title": "Senior Living Community",
+      "image": "https://www.house-designing.com/wp-content/uploads/wallpapers/s001/13.jpg",
+      "segment_name": "Senior Living",
+      "description": "A peaceful senior living community with all necessary amenities and healthcare support.",
+      "price": "$1,800/month",
+      "status": "rent",
+      "area": "1200 sq ft",
+      "location": "Tampa, FL",
+      "facilities": [
+          "Living Room",
+          "Healthcare Center",
+          "Garden",
+          "Recreation Area"
+      ]
+  },
+  {
+      "id": 6,
+      "estate_title": "Chic Vacation Rental",
+      "image": "https://wallpaper.forfun.com/fetch/06/06e40a0a673edfcb9aaa5194cfb684a3.jpeg",
+      "segment_name": "Vacation Rental",
+      "description": "A chic and fully-furnished vacation rental with beach access.",
+      "price": "$300/night",
+      "status": "rent",
+      "area": "1800 sq ft",
+      "location": "Miami, FL",
+      "facilities": [
+          "Living Room",
+          "Private Beach Access",
+          "Swimming Pool",
+          "Outdoor Patio"
+      ]
+  },
+  {
+      "id": 7,
+      "estate_title": "Elegant Penthouse",
+      "image": "https://wallpapers.com/images/hd/modern-house-luminescent-pool-n926oqb3p0b1kpwn.jpg",
+      "segment_name": "Penthouse",
+      "description": "A penthouse with stunning city views and luxurious interiors.",
+      "price": "$5,000/month",
+      "status": "rent",
+      "area": "2500 sq ft",
+      "location": "San Francisco, CA",
+      "facilities": [
+          "Living Room",
+          "Terrace",
+          "Private Elevator",
+          "Jacuzzi"
+      ]
+  },
+  {
+      "id": 8,
+      "estate_title": "Countryside Cottage",
+      "image": "https://downloadhdwallpapers.in/wp-content/uploads/2018/01/Luxury-House-With-Swiming-Pool-1920x1200.jpg",
+      "segment_name": "Cottage",
+      "description": "Charming countryside cottage with a large garden and cozy fireplace.",
+      "price": "$275,000",
+      "status": "sale",
+      "area": "1600 sq ft",
+      "location": "Nashville, TN",
+      "facilities": [
+          "Living Room",
+          "Garden",
+          "Fireplace",
+          "Porch"
+      ]
+  },
+  {
+      "id": 9,
+      "estate_title": "Beachfront Villa",
+      "image": "https://wallpapers.com/images/hd/luxury-house-in-arizona-facing-the-pool-bk462kn760oa98ux.jpg",
+      "segment_name": "Villa",
+      "description": "Exclusive beachfront villa with private pool and direct beach access.",
+      "price": "$1,200,000",
+      "status": "sale",
+      "area": "3000 sq ft",
+      "location": "Malibu, CA",
+      "facilities": [
+          "Living Room",
+          "Private Pool",
+          "Beach Access",
+          "Outdoor Kitchen"
+      ]
+  },
+  {
+      "id": 10,
+      "estate_title": "City Loft",
+      "image": "https://wallpapers.com/images/hd/mediterranean-inspired-luxury-house-rn5cxnaka0cy87me.jpg",
+      "segment_name": "Loft",
+      "description": "Urban loft with open floor plan, perfect for a modern lifestyle.",
+      "price": "$2,000/month",
+      "status": "rent",
+      "area": "1300 sq ft",
+      "location": "Denver, CO",
+      "facilities": [
+          "Living Room",
+          "High Ceilings",
+          "Rooftop Access",
+          "Gym"
+      ]
+  },
+  {
+      "id": 11,
+      "estate_title": "Historic Mansion",
+      "image": "https://cdn.wallpapersafari.com/41/51/u3mlX8.jpg",
+      "segment_name": "Mansion",
+      "description": "A historic mansion with vintage decor and beautiful landscaping.",
+      "price": "$950,000",
+      "status": "sale",
+      "area": "4000 sq ft",
+      "location": "Charleston, SC",
+      "facilities": [
+          "Living Room",
+          "Library",
+          "Garden",
+          "Guest House"
+      ]
+  },
+  {
+      "id": 12,
+      "estate_title": "Mountain Cabin",
+      "image": "https://wallpapergod.com/images/hd/house-2560X1600-wallpaper-5m0jm8n6erzhep7x.jpeg",
+      "segment_name": "Cabin",
+      "description": "Secluded mountain cabin with breathtaking views and rustic charm.",
+      "price": "$150,000",
+      "status": "sale",
+      "area": "900 sq ft",
+      "location": "Aspen, CO",
+      "facilities": [
+          "Living Room",
+          "Fireplace",
+          "Deck",
+          "Hiking Trails Nearby"
+      ]
+  }
+]

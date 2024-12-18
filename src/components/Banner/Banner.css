@@ -1,0 +1,39 @@
+/* Banner.css */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}
+
+.transition-transform {
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 auto; /* Prevent shrinking */
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 50%; /* Round button */
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.8);
+}

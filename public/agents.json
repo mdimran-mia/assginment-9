@@ -1,0 +1,56 @@
+[
+  {
+      "id": 1,
+      "estate_title": "Chirs Evans",
+      "image": "https://i0.wp.com/listas.uachatec.xyz/wp-content/uploads/2023/05/98-2.webp?resize=780%2C439&ssl=1",
+      "segment_name": "Luxury Residential",
+      "description": "James Thompson is an expert in luxury properties in the Los Angeles area, known for his personalized service and attention to detail. He has helped over 200 clients find their dream homes.",
+      "price": "8 years of experience",
+      "status": "4.9 rating",
+      "area": "Languages: English, Spanish",
+      "location": "Los Angeles, CA",
+      "facilities": [
+          "Email: james.thompson@example.com",
+          "Phone: +1 234 567 8901",
+          "Facebook: https://facebook.com/james_thompson_realty",
+          "Instagram: https://instagram.com/james_thompson_luxury",
+          "Twitter: https://twitter.com/james_thompson_la"
+      ]
+  },
+  {
+      "id": 2,
+      "estate_title": "Elizabeth Olsen",
+      "image": "https://img.goodfon.com/wallpaper/big/9/29/elizabet-olsen-elizabeth.webp",
+      "segment_name": "Waterfront Properties",
+      "description": "With a strong focus on Miami’s waterfront properties, Sophia Martinez brings a unique blend of market insight and negotiation skills. Her clients appreciate her dedication and transparent communication.",
+      "price": "5 years of experience",
+      "status": "4.7 rating",
+      "area": "Languages: English, Portuguese",
+      "location": "Miami, FL",
+      "facilities": [
+          "Email: sophia.martinez@example.com",
+          "Phone: +1 987 654 3210",
+          "Facebook: https://facebook.com/sophia_martinez_miami",
+          "Instagram: https://instagram.com/sophia_waterfront_realtor",
+          "Twitter: https://twitter.com/sophia_m_realty"
+      ]
+  },
+  {
+      "id": 3,
+      "estate_title": "Chris Hamsworth",
+      "image": "https://newsblare.com/wp-content/uploads/2023/07/chris-hemsworth-poses-during-a-photo-call-for-thor-ragnarok-on-october-15-2017-in-sydney-australia-photo-by-mark-metcalfe_getty-images-for-disney-square-1-1.webp",
+      "segment_name": "Investment Properties",
+      "description": "Liam Patel specializes in investment properties in Austin, offering expert guidance on maximizing ROI. With over a decade of experience, he has a proven track record of helping investors achieve their goals.",
+      "price": "10 years of experience",
+      "status": "4.8 rating",
+      "area": "Languages: English, Hindi",
+      "location": "Austin, TX",
+      "facilities": [
+          "Email: liam.patel@example.com",
+          "Phone: +1 345 678 9123",
+          "Facebook: https://facebook.com/liam_patel_investments",
+          "Instagram: https://instagram.com/liam_austin_investments",
+          "YouTube: https://youtube.com/c/LiamInvestmentTips"
+      ]
+  }
+]
