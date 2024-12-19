@@ -1,10 +1,10 @@
 import LatestProperties from "../../components/LatestPropertise/LatestProperties";
-import Slider from "../../components/Slider/Slider";
+import Sliders from "../../components/Sliders/Sliders";
 
 const NewSite = () => {
     return (
         <div>
-            <Slider/>
+            <Sliders/>
             <div className="mt-5">
                 <LatestProperties />
             </div>

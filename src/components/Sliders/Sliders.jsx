@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import './Slider.css';
+import './Sliders.css';
 import { IoIosArrowDropleftCircle } from "react-icons/io";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
-const Slider = () => {
+const Sliders = () => {
     const [slides, setSlides] = useState([]);
     const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -75,4 +75,4 @@ const Slider = () => {
     );
 };
 
-export default Slider;
+export default Sliders;
