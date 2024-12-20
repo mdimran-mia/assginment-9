@@ -9,7 +9,7 @@ const Sliders = () => {
 
     // Fetch slides data from home.json on component mount
     useEffect(() => {
-        fetch('/public/forSale.json')
+        fetch('/forSale.json')
             .then((response) => response.json())
             .then((data) => setSlides(data))
             .catch((error) => console.error("Error fetching JSON data:", error));

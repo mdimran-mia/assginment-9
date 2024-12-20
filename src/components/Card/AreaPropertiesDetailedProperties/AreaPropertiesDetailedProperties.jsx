@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { FaLocationDot, FaBed, FaBath, FaPhoneVolume } from "react-icons/fa6";
 import { BsArrowsFullscreen } from "react-icons/bs";
@@ -6,6 +6,7 @@ import { IoIosMail } from "react-icons/io";
 
 const AreaPropertiesDetailedProperties = () => {
     const { id } = useParams();
+    const {state} = useLocation()
     const navigate = useNavigate(); // Initialize useNavigate hook
     const [property, setProperty] = useState(null);
     const [error, setError] = useState(null);
@@ -22,13 +23,7 @@ const AreaPropertiesDetailedProperties = () => {
                 return response.json();
             })
             .then((data) => {
-                let foundProperty = null;
-                for (const area of data) {
-                    foundProperty = area.properties.find(
-                        (prop) => String(prop.id) === id
-                    );
-                    if (foundProperty) break;
-                }
+                let foundProperty = data.find(item => String(item.id) === state.rootId).properties.find( p => String(p.id)=== state.propertyId)
 
                 if (!foundProperty) {
                     throw new Error("Property not found");
@@ -79,7 +74,7 @@ const AreaPropertiesDetailedProperties = () => {
     }
 
     return (
-        <div className="container mx-auto py-12 px-4 max-w-[960px]">
+        <div className="container mx-auto py-12 px-4 mt-10 max-w-[960px]">
             <h2 className="text-4xl font-bold text-center mb-8">{property.title}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start bg-white shadow-lg rounded-lg overflow-hidden">
                 <button

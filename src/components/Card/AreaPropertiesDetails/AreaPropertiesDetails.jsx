@@ -44,7 +44,7 @@ const AreaPropertiesDetails = () => {
     }
 
     return (
-        <div className="my-5 w-4/5 mx-auto">
+        <div className="my-5 w-4/5 mt-20 mx-auto">
             {/* Display area name */}
             <h2 className="text-3xl font-bold text-center mb-5">
                 Properties in {area?.location || "Unknown Area"}
@@ -60,6 +60,10 @@ const AreaPropertiesDetails = () => {
                     <Link
                         key={property.id}
                         to={`/properties/${property.id}`} // Link to individual property details
+                        state={{
+                            rootId: id,
+                            propertyId: property.id
+                        }}
                         className="block p-4 shadow-lg rounded-lg transform transition-transform duration-200 hover:scale-105"
                     >
                         {/* Property image */}

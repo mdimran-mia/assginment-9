@@ -10,7 +10,7 @@ const Card = () => {
 
     // Fetch the data from the JSON file and update the areas state
     useEffect(() => {
-        fetch("/public/PropertiseByArea.json") // Make sure this path is correct based on your folder structure
+        fetch("/PropertiseByArea.json") // Make sure this path is correct based on your folder structure
             .then((res) => res.json())
             .then((data) => setAreas(data))
             .catch((error) => console.error("Error fetching data:", error)); // Handle errors

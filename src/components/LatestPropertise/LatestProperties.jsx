@@ -57,7 +57,6 @@ const LatestProperties = () => {
             <Link
               key={property.id}
               to={`/property/${property.id}`}
-              className="design"
               style={{ "--animation-color": color }}
             >
               <span></span>

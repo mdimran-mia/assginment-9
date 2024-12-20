@@ -51,16 +51,16 @@ const Navbar = () => {
     }, [isDrawerOpen]);
 
     const Links = (
-        <div className="flex flex-col lg:flex-row gap-5">
-            <NavLink to="/" className={({ isActive }) => (isActive ? "text-blue-500" : "text-white")}>
+        <div className="flex flex-col lg:flex-row gap-5 ">
+            <NavLink to="/" className={({ isActive }) => (isActive ? "text-blue-500" : "text-slate-900 lg:text-white")}>
                 Home
             </NavLink>
             {
                 user && <>
-                    <NavLink to="/newSite" className={({ isActive }) => (isActive ? "text-blue-500" : "text-white")}>
+                    <NavLink to="/newSite" className={({ isActive }) => (isActive ? "text-blue-500" :  "text-slate-900 lg:text-white")}>
                         New Sites
                     </NavLink>
-                    <NavLink to="/contact" className={({ isActive }) => (isActive ? "text-blue-500" : "text-white")}>
+                    <NavLink to="/contact" className={({ isActive }) => (isActive ? "text-blue-500" :  "text-slate-900 lg:text-white")}>
                         Contact
                     </NavLink>
                 </>
@@ -115,7 +115,7 @@ const Navbar = () => {
             {isDrawerOpen && (
                 <div
                     ref={drawerRef}
-                    className="fixed top-16 right-0 h-full bg-base-200 bg-opacity-80 transition-all duration-300 z-20 text-white"
+                    className="fixed top-16 right-0 h-full bg-base-200 bg-opacity-90 transition-all duration-300 z-20 text-gray-500"
                     style={{ width: `${drawerWidth}px` }}
                 >
                     <div className="p-4">
